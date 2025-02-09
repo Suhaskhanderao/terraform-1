@@ -20,11 +20,11 @@ resource "aws_instance" "myec2" {
 }
 variable "my_region" {
    type = string
-  default = "ap-south-1"
+  default = "us-west-1"
 }
 variable "access_key" { }
 variable "secret_key" { }
 variable "my_ami" {
    type = string
-   default = "ami-0c50b6f7dc3701ddd"
+   default = "ami-03d49b144f3ee2dc4"
 }
